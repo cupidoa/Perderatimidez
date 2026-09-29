@@ -13,6 +13,10 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: Arial, sans-serif;
             background: #0d0d0d;
@@ -39,6 +43,7 @@
 
         .hero h1 {
             font-size: 48px;
+            line-height: 1.15;
             margin-bottom: 20px;
         }
 
@@ -62,10 +67,12 @@
             text-decoration: none;
             border-radius: 8px;
             font-weight: bold;
+            transition: 0.2s;
         }
 
         .btn:hover {
             background: #e62f2f;
+            transform: translateY(-2px);
         }
 
         section {
@@ -119,6 +126,7 @@
             background: #171717;
             padding: 20px;
             border-radius: 10px;
+            border: 1px solid #252525;
         }
 
         .benefit p {
@@ -174,93 +182,124 @@
 
     <main>
 
+        <!-- APRESENTAÇÃO -->
         <div class="hero">
-            <h1>Vença a <span>Timidez</span> e Desenvolva sua Confiança</h1>
+
+            <h1>
+                Vença a <span>Timidez</span> e Desenvolva sua Confiança
+            </h1>
 
             <p>
                 Aprenda a se comunicar melhor, perder o medo de iniciar
                 conversas e desenvolver mais confiança para criar conexões.
             </p>
 
-            <a href="#curso" class="btn">Conhecer o Curso</a>
+<a href="#curso" class="btn">
+    Conhecer o curso
+</a>
+
         </div>
 
 
+        <!-- SOBRE -->
         <section>
+
             <h2>Sobre o curso</h2>
 
             <p class="about">
                 O Timidez Zero foi criado para pessoas que têm dificuldade
                 para iniciar conversas, medo de rejeição ou insegurança em
-                situações sociais. O curso apresenta técnicas e exercícios
-                simples para desenvolver comunicação, confiança e autoestima.
+                situações sociais.
+
+                <br><br>
+
+                O curso apresenta conteúdos e exercícios simples para
+                desenvolver comunicação, confiança e autoestima.
             </p>
+
         </section>
 
 
+        <!-- CONTEÚDO -->
         <section id="curso">
+
             <h2>O que você vai aprender</h2>
 
             <div class="modules">
 
                 <div class="module">
                     <h3>01. Entendendo a Timidez</h3>
+
                     <p>
                         Entenda de onde vem a timidez e como começar a
                         controlar o medo de situações sociais.
                     </p>
                 </div>
 
+
                 <div class="module">
                     <h3>02. Construindo Confiança</h3>
+
                     <p>
                         Trabalhe postura, comunicação, contato visual
                         e segurança pessoal.
                     </p>
                 </div>
 
+
                 <div class="module">
                     <h3>03. Iniciando Conversas</h3>
+
                     <p>
                         Aprenda maneiras naturais de iniciar conversas
                         sem precisar decorar frases.
                     </p>
                 </div>
 
+
                 <div class="module">
                     <h3>04. Como Conversar</h3>
+
                     <p>
                         Descubra como manter uma conversa interessante
                         e encontrar assuntos em comum.
                     </p>
                 </div>
 
+
                 <div class="module">
                     <h3>05. Criando Conexão</h3>
+
                     <p>
                         Aprenda a demonstrar interesse e perceber
                         quando existe reciprocidade.
                     </p>
                 </div>
 
+
                 <div class="module">
                     <h3>06. Conversas Online</h3>
+
                     <p>
                         Melhore sua comunicação pelo WhatsApp e pelas
                         redes sociais.
                     </p>
                 </div>
 
+
                 <div class="module">
                     <h3>07. Lidando com Rejeição</h3>
+
                     <p>
                         Aprenda a lidar melhor com respostas negativas
                         sem perder sua confiança.
                     </p>
                 </div>
 
+
                 <div class="module">
                     <h3>08. Desafio de 30 Dias</h3>
+
                     <p>
                         Coloque o conhecimento em prática através de
                         exercícios progressivos.
@@ -268,56 +307,86 @@
                 </div>
 
             </div>
+
         </section>
 
 
+        <!-- BENEFÍCIOS -->
         <section>
+
             <h2>O que você pode desenvolver</h2>
 
             <div class="benefits">
 
                 <div class="benefit">
+
                     <h3>🗣 Comunicação</h3>
+
                     <p>
                         Aprenda a se expressar com mais naturalidade.
                     </p>
+
                 </div>
 
+
                 <div class="benefit">
+
                     <h3>💪 Confiança</h3>
+
                     <p>
                         Trabalhe sua segurança em situações sociais.
                     </p>
+
                 </div>
 
+
                 <div class="benefit">
+
                     <h3>🤝 Conexões</h3>
+
                     <p>
                         Aprenda a criar conversas e conexões de maneira
                         natural e respeitosa.
                     </p>
+
                 </div>
 
+
                 <div class="benefit">
+
                     <h3>🎯 Prática</h3>
+
                     <p>
-                        Exercícios para transformar conhecimento em prática.
+                        Exercícios para transformar conhecimento
+                        em prática.
                     </p>
+
                 </div>
 
             </div>
+
         </section>
 
 
+        <!-- CTA FINAL -->
         <section class="final">
-            <h2>Comece a trabalhar sua confiança</h2>
+
+            <h2>
+                Comece a trabalhar sua confiança
+            </h2>
 
             <p>
                 Pequenas mudanças na forma como você se comunica podem
                 ajudar a tornar suas interações sociais mais naturais.
             </p>
 
-            <a href="#curso" class="btn">Ver Conteúdo</a>
+            <a
+                href="https://pay.kiwify.com.br/amp9brf"
+                class="btn"
+            >
+                Quero começar agora
+            </a>
+
         </section>
 
     </main>
